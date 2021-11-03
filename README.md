@@ -49,7 +49,7 @@ halt
 * In the SWI-Prolog environment, enter:
 `t2on(N,File,String,M).`
 where N is the number of times to output the file, File is the file name, String is the string to output and M is the number of words in the file to output, e.g.:
-* `t2on(u,"file.txt",u,u).`
+* `t2on(u,"file.txt",u,u).` or `t2on(u,u,u,u).`
 Outputs file.txt.
 * `t2on(2,"file.txt",u,u).`
 Outputs file.txt twice.
