@@ -20,7 +20,7 @@ t2on2(N1,Filex1,Stringx1,M1,Words_to_read) :-
 	M=all), %% If m1 is undefined or all then m=all
 
 	prep(List1,T2ON_Dict03,Filex,Stringx1,M),
-	t2on_2(List1,T2ON_Dict03,T2ON_Dict2,N),
+	t2on_2(List1,T2ON_Dict03,T2ON_Dict2,[],A12,N),
 
 	sort(T2ON_Dict2,T2ON_Dict3),
 
@@ -34,6 +34,9 @@ open_file_s("../Lucian-Academy-Data/Text-to-Object-Name/t2on_end_text.txt",TET),
  	Dividend_b is Dividend_a*3, % for graciously giving
 
 	findall(_,(member([_,TET_T],TET),t2on(Dividend_b,string,TET_T,u)),_),
+ 	
+ 	findall(B,(member([C,D],A12),(D=""->B=C;B=D)),F),sort(F,G),findall([L,J],(member(J,G),findall(J,member(J,F),K),length(K,L)),M11),sort(M11,M2),
+ 	writeln1(M2),
  	
  	!.
 
@@ -101,11 +104,11 @@ prep(List,T2ON_Dict03,Filex,Stringx1,M) :-
 
 ,!.
 
-t2on_2(_,A,A,0) :- !.
-t2on_2(List1,T2ON_Dict03,T2ON_Dict2,N1) :-
-	t2on(List1,T2ON_Dict03,T2ON_Dict21),
+t2on_2(_,A,A,B,B,0) :- !.
+t2on_2(List1,T2ON_Dict03,T2ON_Dict2,A11,A12,N1) :-
+	t2on(List1,T2ON_Dict03,T2ON_Dict21,A11,A13),
 	N2 is N1-1,
-	t2on_2(List1,T2ON_Dict21,T2ON_Dict2,N2),!.
+	t2on_2(List1,T2ON_Dict21,T2ON_Dict2,A13,A12,N2),!.
 
 towords2([],A,A) :- !.
 towords2(T2ON_Dict03,A,B) :-
@@ -131,9 +134,9 @@ towords3(T2ON_Dict03,A,B,D,E,G,H) :-
 	towords3(Rest,C,B,F,E,I,H).
 
 
-t2on([],B,B) :-
+t2on([],B,B,C,C) :-
 	!.
-t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
+t2on([Word3|Words],T2ON_Dict,T2ON_Dict2,A11,A12) :-
 	%downcase_atom(Word, Word2), atom_string(Word2,Word3),
 	
 	words_to_read(WR1),
@@ -144,8 +147,8 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	assertz(words_to_read(WR2)));
 	true),
 	
-	/**member([Word3,X,Y,Z],T2ON_Dict4) -> %% This feature is a bug because words in t2on_dict2 shouldn't necessarily be the words in t2on_dict1
-	%%(append(T2ON_Dict,[[Word3,""]],T2ON_Dict3), T2ON_Dict3t=T2ON_Dict4,
+	%/**member([Word3,X,Y,Z],T2ON_Dict4) -> %% This feature is a bug because words in t2on_dict2 shouldn't necessarily be the words in t2on_dict1
+	%append(A11,[[Word3,""]],T2ON_Dict3), T2ON_Dict3t=T2ON_Dict4,
 	%%t2on_(Words,T2ON_Dict3,T2ON_Dict2,T2ON_Dict3t,T2ON_Dict5))
 	%%;
 	%%(**/
@@ -164,15 +167,18 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	append(T2ON_Dict,[[Word3,String4]],T2ON_Dict3)
 	%t2on(1,u,String4,1)
 	)),
+	
+	append(A11,[[Word3,String4]],A13),
+
 	%%*t2on_th(Word3,_T2ON_th),
-	concat_list(["[",Word3,",",String4,"], "],Notification1),
-	write(Notification1),
+	%concat_list(["[",Word3,",",String4,"], "],Notification1),
+	%write(Notification1),
 %(String4=""->String5=Word3;String5=String4),
 
 	%downcase_atom(String5, String52), atom_string(String52,String53),
 
 	
-t2on(Words,T2ON_Dict3,T2ON_Dict2).
+t2on(Words,T2ON_Dict3,T2ON_Dict2,A13,A12).
 	%%).
 %t2on_th(_,sweetinvincibleandprayedfor).
 

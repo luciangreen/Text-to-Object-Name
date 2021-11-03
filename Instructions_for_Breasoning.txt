@@ -1,0 +1,180 @@
+Instructions for Breasoning
+
+
+Glossary: Breasoning is thinking of the x, y and z measurements in metres of an object in a sentence.
+
+
+
+1. Perform the following Daily Regimen, containing meditation, pedagogy and medicine preparation.
+
+
+Meditation
+
+
+You can naturally prevent a headache by silently repeating the mantras, "lucian" and "arem" for twenty, minutes, twice per day. The mantras becomes lighter and lighter, until one forgets the thought, clearing the mind.  Also, silently repeat the sutra "green" for twenty minutes, twice per day after two months of using the mantras in the morning and evening.  Also, pray for no digestive system pops from practising the sutra each day.
+
+Quantum Box and Nut and Bolt
+
+
+Quantum Box
+
+
+The quantum box is a guided meditation that I will describe later that prevents headaches, (relaxes head and neck muscles), and prevents muscle aches and pains.  In it, you can make anything (e.g. a headache) instantly disappear, based on quantum physics (where at the quantum level, things may disappear if we want them to).
+
+
+Nut and Bolt
+
+
+The nut and bolt is a guided meditation that is a more detailed prevention of problems the Quantum Box prevents.  In it, pretend to unscrew a nut from a long thin bolt each day to prevent a headache, etc.
+
+
+One-off
+
+One-off: Repeat Upasana * 800 and breason out the following 7 breasonings details to God.  I make a small recommendation of a University accredited short Education course every two years or a degree every ten years.
+
+
+
+Repeat Upasana * 800 if not done in a chain of meditation days linked to today (and green, Purusha, Use, Teacher, Maharishi, Doctor each x 800 before Upasana if they are not done in a chain of meditation days linked to today).
+
+Breason out (think of examples with objects that you have thought of the x, y and z dimensions of) the following 7 breasonings details as an exercise. Pretend to breason out the breasonings details to God.
+
+See http://lucianspedagogy.blogspot.com.au/p/writing-sentences-by-making.html
+
+1. Details - As an exercise, think of two uses, a future use and two types for each object.
+
+2. Breasoning - Think of the x, y, z dimensions and colour of each object.
+
+3. Rebreasoning - Think of the fact that the person and the object in a sentence are connected by a verb (an action) that means they touch.
+
+4. Breathsoning - Think of a reason that the object is judged good (a judgment adjective).
+
+5. Rebreathsoning - Think of a reason that the verb (action) is judged done well (a judgment adverb).
+
+6. Space - Think of spatial characteristics of the person in relation to the object (room, part of room e.g. table and direction in room e.g. plate).
+
+7. Time - Think of temporal characteristics of the person in relation to the object (time to prepare e.g. buy, time to do e.g. eat, and time to finish e.g. place core in a receptacle).
+
+
+
+
+Daily Regimen
+
+
+I recommend Yoga and Qi Gong.
+
+
+Indicate 2 radio buttons (one for each of the following ideas, and one for each of these ideas working anyway, where a radio button is indicated by breasoning out, or thinking of the x, y and z dimensions of a counter, 0.01, 0.01, 0.005 metres).
+
+Too (just say “too” for each idea following to indicate the two radio buttons)
+
+meditation (80 lucian and arem mantras and 80 green sutras)
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+No digestive system pops from practising the sutra
+
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+Protector from Headache in Meditation after Honours Study, etc.
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+No headache
+
+
+The following turn off headaches etc.
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+Turn off workload from all employees including you below you,
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+Detect and turn off workloads using manager algorithm. (The self does the As, turning off the workloads.)
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+Detect and turn off workloads using manager network. (The others help finish the As, turning off the workloads.)
+
+Also, for the following, which also have quantum box and nut and bolt:
+
+No muscle aches/pains
+
+
+2. One-off, breason out 250 characters from Lecturer Training, to be able to breason out anything you want, not just found out breasonings.
+
+
+“Lecturer (all in this document)
+
+
+    1.    I collected the comments.
+
+    2.    I wrote the formula.
+
+    3.    I wrote the input.
+
+    4.    I wrote the output.
+
+    5.    I had the rights to government.
+
+    6.    I had the rights to the state.
+
+    7.    I had the rights to vote.
+
+    8.    I amalgamated the b”
+
+
+3. One-off, breason out 250 characters from Recordings Training, to be able to indicate that breasonings are implicitly breasoned out for you.
+
+
+“Recordings from 30 As 1
+
+
+    1.    I meditated on the day I produced recordings.
+
+    2.    I confirmed training.
+
+    3.    Recordings relate to the rest of pedagogy.
+
+    4.    The delegator matched recordings (workloads) with different recordings.
+
+    5.    I endorsed the 5*50 As pract”
+
+
+“Too”: 5 symbolic strawberries (each is 0.01, 0.01, 0.01 cm) for Recordings to work.
+
+
+
+4. 250 characters from Delegate Workloads
+
+"1.	I cut off infinity.
+	2.	I used the sun.
+	3.	The queen helped.
+	4.	The delivery arrived.
+	5.	I earned the role.
+	6.	I wrote the developed text.
+	7.	I knew about the lotus spoon.
+	8.	I knew the female politician.
+	9.	I knew positive religion.
+	10.	P"
+    
+
+Notes on Text-to-Object-Name:
+
+
+Replace ⁃, – in file.txt with - or crashes
+
+Replace “,” in file.txt with " or crashes
+
+Replace ‘,’ in file.txt with ' or crashes
+
+Replace MS Word return in file.txt with normal return or crashes
+
+Replace nonbreaking space " " in file.txt with normal space " " or crashes
+
+
+If there are any invisible characters apart from esc then brdict.txt may become corrupt, and should be replaced with a backup.  You could directly delete the invisible characters from brdict.txt, but Lucian Academy accepts no responsibility for this.
+
+
+You don't have to reinsert smart quotes in file.txt afterwards because texttobr2 doesn't change the file.  Simply use the copy of your text before you inserted and changed it in file.txt.
