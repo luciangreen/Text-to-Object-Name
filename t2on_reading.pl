@@ -52,7 +52,6 @@ prep(List,T2ON_Dict03,Filex,Stringx1,M) :-
 	
 	%sort(T2ON_Dict01t,T2ON_Dict03t),
 
-	%length(T2ON_Dict03t,Length0t),write("Number of unique t2on_easonings in dictionary: "), writeln(Length0t),
 	
 	((Stringx1=u,
 	phrase_from_file_s(string(String00), Filex))->true;
@@ -91,13 +90,10 @@ prep(List,T2ON_Dict03,Filex,Stringx1,M) :-
 	%subtract(AllUsedNames,T2ON_Dict04t,D2),
 	%%delete(D21,'',D2),
 	%length(D2,Length01t),Differencet is abs(Length01t),write("Number of undefined object names: "), writeln(Differencet),
-	%% writeln([undefinedt2on_easonings,D2]), %% Print undefined t2on_easonings
 
 	%%delete(D31,'',D3),
 	%subtract(T2ON_Dict04t,AllUsedNames,D3),
-	%length(D3,Length01t2),Differencet2 is abs(Length01t2),write("Number of orphaned t2on_easonings: "), writeln(Differencet2),
 	
-		%%,writeln([orphanedt2on_easonings,D3]) %% Print orphaned t2on_easonings
 
 	
 
@@ -155,7 +151,7 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	%%(**/
 	
 	%%(member([Word3,X,Y,Z],T2ON_Dict4) -> %% This feature is a bug because words in t2on_dict1 should correspond to those in t2on_dict2
-	%%(atom_concat("The t2on_easoning for ", Word3, P1),
+	%%(atom_concat("The  for ", Word3, P1),
 	%%atom_concat(P1, " is defined.  Enter object name (without spaces), if different for ", Prompt));
 	%Prompt="Enter object name (without spaces), if different for "),
 	
@@ -169,7 +165,7 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	%t2on(1,u,String4,1)
 	)),
 	%%*t2on_th(Word3,_T2ON_th),
-	concat_list(["[",Word3,",",String4,"],"],Notification1),
+	concat_list(["[",Word3,",",String4,"], "],Notification1),
 	write(Notification1),
 %(String4=""->String5=Word3;String5=String4),
 
