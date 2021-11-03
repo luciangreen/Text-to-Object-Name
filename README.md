@@ -6,7 +6,7 @@
 
 * Text-to-Object-Name (T2ON) is a set of algorithms that converts a file to the set of a certain number of words, and a word frequency counter.  It does not breason out words.
 
-* To breason out words, one needs to finish an Education short course and read the instructions in <a href="https://github.com/luciangreen/Text-to-Object-Name/blob/master/Instructions_for_Breasoning.txt">Instructions_for_Breasoning.txt</a>.
+* To breason out words, one needs to finish an Education short course and read the instructions in <a href="https://github.com/luciangreen/Text-to-Object-Name/blob/main/Instructions_for_Breasoning.txt">Instructions_for_Breasoning.txt</a>.
 
 * Generally, 80 word breasonings are needed to earn a high distinction at undergraduate level and below, have healthy children or sell products.  This increases to 2 * 15 * 80=2400 breasonings per Honours level chapter, approximately 2 * 50 * 80=8000 breasonings per Masters level assignment and approximately 2 * 4 * 50 * 80=32,000 breasonings per PhD level assignment.
 
