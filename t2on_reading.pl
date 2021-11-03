@@ -1,4 +1,5 @@
 :- include('../listprologinterpreter/la_maths.pl').
+:- include('../Text-to-Breasonings/text_to_breasonings.pl').
 
 t2on(N1,Filex1,Stringx1,M1) :-
 	t2on2(N1,Filex1,Stringx1,M1,0).
@@ -57,7 +58,11 @@ prep(List,T2ON_Dict03,Filex,Stringx1,M) :-
 	phrase_from_file_s(string(String00), Filex))->true;
 	String00=Stringx1),
 	
-	split_string(String00,SepandPad,SepandPad,List1),
+	string_codes(String001,String00),
+	string_lower(String001,String002),
+	string_codes(String002,String003),
+
+	split_string(String003,SepandPad,SepandPad,List1),
 
 	truncate(List1,M,List),
 
@@ -136,7 +141,7 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	%downcase_atom(Word, Word2), atom_string(Word2,Word3),
 	
 	words_to_read(WR1),
-	(WR1>0->(writeln(WR1),write(Word),
+	(WR1>0->(writeln(WR1),write(Word3),
 	t2on2(3),nl,sleep(0.12),
 	WR2 is WR1-1,
 	retractall(words_to_read(_)),
@@ -164,7 +169,8 @@ t2on([Word3|Words],T2ON_Dict,T2ON_Dict2) :-
 	%t2on(1,u,String4,1)
 	)),
 	%%*t2on_th(Word3,_T2ON_th),
-
+	concat_list(["[",Word3,",",String4,"],"],Notification1),
+	write(Notification1),
 %(String4=""->String5=Word3;String5=String4),
 
 	%downcase_atom(String5, String52), atom_string(String52,String53),
