@@ -27,6 +27,7 @@ t2on2(N1,Filex1,Stringx1,M1,Words_to_read) :-
 	(T2ON_Dict03=T2ON_Dict3->true;
 	(save_file_s("../Lucian-Academy-Data/Text-to-Object-Name/t2on_dict1.txt",T2ON_Dict3))),
 
+/*
 open_file_s("../Lucian-Academy-Data/Text-to-Object-Name/t2on_end_text.txt",TET),
 
  	length(List1,List1_length_a),
@@ -34,7 +35,7 @@ open_file_s("../Lucian-Academy-Data/Text-to-Object-Name/t2on_end_text.txt",TET),
  	Dividend_b is Dividend_a*3, % for graciously giving
 
 	findall(_,(member([_,TET_T],TET),t2on(Dividend_b,string,TET_T,u)),_),
- 	
+ 	*/
  	findall(B,(member([C,D],A12),(D=""->B=C;B=D)),F),sort(F,G),findall([L,J],(member(J,G),findall(J,member(J,F),K),length(K,L)),M11),sort(M11,M2),
  	writeln1(M2),
  	
