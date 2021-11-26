@@ -1,5 +1,3 @@
-<a href="https://github.com/luciangreen/Essay-Helper">Essay Helper</a> | Text-to-Object-Name (Helps Earn High Distinctions) | <a href="https://github.com/luciangreen/Algorithm-Writer-with-Lists">Grammar Logic (Helps Mind Map Details)</a>
-
 # Text-to-Object-Name
 
 * Text-to-Object-Name deprecates Text-to-Breasonings, which is not compatible with the future simulation and may cause haemmhoroids.
