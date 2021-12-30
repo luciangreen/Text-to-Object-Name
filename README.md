@@ -1,7 +1,5 @@
 # Text-to-Object-Name
 
-* Text-to-Object-Name deprecates Text-to-Breasonings, which is not compatible with the future simulation and may cause haemmhoroids.
-
 * Text-to-Object-Name (T2ON) is a set of algorithms that converts a file to the set of a certain number of words, and a word frequency counter.  It does not breason out words.
 
 * To breason out words, one needs to finish an Education short course and read the instructions in <a href="https://github.com/luciangreen/Text-to-Object-Name/blob/main/Instructions_for_Breasoning.txt">Instructions_for_Breasoning.txt</a>.
