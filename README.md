@@ -18,7 +18,7 @@ Please read the following instructions on how to install the project on your com
 
 # 1. Install manually
 
-Download <a href="http://github.com/luciangreen/Text-to-Object-Name/">this repository</a>, <a href="http://github.com/luciangreen/Text-to-Breasonings/">Text to Breasonings repository</a>, and the <a href="https://github.com/luciangreen/listprologinterpreter">List Prolog Interpreter Repository</a>.
+Download <a href="http://github.com/luciangreen/Text-to-Object-Name/">this repository</a>, <a href="http://github.com/luciangreen/Text-to-Breasonings/">Text to Breasonings repository</a>, the <a href="http://github.com/luciangreen/Lucian-Academy-Data/">Lucian Academy Data repository</a>, and the <a href="https://github.com/luciangreen/listprologinterpreter">List Prolog Interpreter Repository</a>.
 
 # 2. Or Install from List Prolog Package Manager (LPPM)
 
