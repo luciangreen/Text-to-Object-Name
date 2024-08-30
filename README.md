@@ -32,7 +32,8 @@ cd List-Prolog-Package-Manager
 swipl
 ['lppm'].
 lppm_install("luciangreen","Text-to-Object-Name").
-halt
+../
+halt.
 ```
 
 # Running
