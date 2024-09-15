@@ -65,7 +65,7 @@ prep(List,T2ON_Dict03,Filex,Stringx1,M) :-
 	string_lower(String001,String002),
 	string_codes(String002,String003),
 
-	split_string(String003,SepandPad,SepandPad,List1),
+	split_string_on_non_alpha(String003,List1),
 
 	truncate(List1,M,List),
 
