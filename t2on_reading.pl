@@ -1,5 +1,5 @@
-:- include('../listprologinterpreter/la_maths.pl').
-:- include('../Text-to-Breasonings/text_to_breasonings.pl').
+:-include('../listprologinterpreter/la_maths.pl').
+:-include('../Text-to-Breasonings/text_to_breasonings.pl').
 
 t2on(N1,Filex1,Stringx1,M1) :-
 	t2on2(N1,Filex1,Stringx1,M1,0).
